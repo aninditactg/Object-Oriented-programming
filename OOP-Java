@@ -1,0 +1,33 @@
+
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.oopfall23;
+
+/**
+ *
+ * @author Hp
+ */
+public class OOPfall23 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+        
+        for (int i = 1046;i<1097;i++){
+            if (i%2!=0){
+                System.out.println("welcome to OOPL" +i);
+            }
+        }
+        OOPfall23 obj= new OOPfall23();
+        obj.OddorEven (12);
+    }
+    static void OddorEven (int i){
+        if (i%2==0){
+            System.out.println ("Even");
+        }
+        else
+        {
+            System.out.println("ODD");
+        }
+    }
+}
